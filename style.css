@@ -89,4 +89,7 @@ body.locked {
     bottom: 0;
     background: radial-gradient(circle at 20% 30%, rgba(59, 92, 107, 0.4) 0%, transparent 60%),
                 radial-gradient(circle at 80% 70%, rgba(207, 168, 96, 0.15) 0%, transparent 50%),
-                url('assets/couple_portrait.png
+                url('assets/wedding_bg.png') center / cover no-repeat;
+    z-index: -1;
+  }
+}

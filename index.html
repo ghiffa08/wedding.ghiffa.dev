@@ -645,54 +645,7 @@
 
 
 <style id="clean-custom-bg">
-/* 1. Reset Body & HTML background */
-html, body {
-  background-color: #ffffff !important;
-  background-image: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Disable Elementor lazyload background stripping */
-.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
-.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
-  background-image: inherit;
-}
-
-/* 2. Cover Section Background (Gambar 1) */
-#kolom, .elementor-element-69f72564 {
-  background-image: url("assets/custom_cover_bg.png") !important;
-  background-position: center top !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-}
-
-/* 3. Hero & Content Sections Background (Gambar 2) with matching cream color fallback */
-.elementor-element-7f934521 {
-  background-color: #f5f3ec !important;
-  background-image: url("assets/custom_section_bg.png") !important;
-  background-position: center top !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-}
-
-/* 4. Quran Verse Ar-Rum Section (Dark Sage Slate #849688) */
-.elementor-element-c8fbf74 {
-  background-color: #849688 !important;
-  background-image: none !important;
-  background-position: center !important;
-  background-size: cover !important;
-}
-
-/* Prevent outer body overflow */
-#sec {
-  background-image: none !important;
-}
-
-/* Hapus foto bersama di halaman depan */
-.elementor-element-5a53bd2c {
-  display: none !important;
-}
+/* custom CSS completely removed */
 
 /* Fix font and dropdown readability for RSVP inputs */
 .cui-container-form input,
@@ -2466,8 +2419,7 @@ select.cui-select option {
 	<style>
 		.revealatas {
 			position: relative;
-			transform: translateY(-6rem);
-			scale(0.93);
+			transform: translateY(-6rem) scale(0.93);
 			opacity: 0;
 			transition: 2s all ease;
 		}
